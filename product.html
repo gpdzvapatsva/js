@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ====================linked Font============================== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300&display=swap" rel="stylesheet">
+
+    <!-- ====================linked CSS Styles======================== -->
+    <link rel="stylesheet" href="../CSS/Styles.css">
+
+    <!-- ====================linked CSS Styles======================== -->
+    <link rel="stylesheet" href="../CSS/Responsive.css">
+
+    <!-- ====================linked CSS bootstrap===================== -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Collection</title>
+</head>
+
+<body>
+
+    <!-- ====================Navbar=================================== -->
+    <section id="navbar">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html"><img
+                        src="https://i.postimg.cc/W3r11r4B/logo-bg-black-removebg-preview.png" alt="logo"
+                        class="img-fluid"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html"><span>H</span>ome</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page"
+                                href="../HTML/about.html"><span>A</span>bout</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page"
+                                href="../HTML/product.html"><span>C</span>ollection</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page"
+                                href="../HTML/checkout.html"><span>C</span>art</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page"
+                                href="../HTML/admin.html"><span>A</span>dmin</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page"
+                                href="../HTML/contact.html"><span>C</span>ontact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <!-- ====================Main===================================== -->
+    <main id="main-product">
+        <div class="container">
+            <div class="prod-top">
+                <input type="text" data-prod-search="Search product input" placeholder="Search Name">
+                <h1>
+                    Collection
+                </h1>
+                <button type="button" class="sortbtn" data-sortBtn="sort button">Sort by price</button>
+            </div>
+        </div>
+        <!-- product cards -->
+        <div class="container">
+            <div class="container d-flex flex-wrap">
+                <div class="col d-flex justify-content-center">
+                    <div class="row" id="card-prod">
+                        <div class="col d-flex flex-wrap justify-content-center" data-card-create="" id="card-space">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- ====================Footer===================================== -->
+    <footer id="footer">
+    </footer>
+
+    <!-- ====================linked JS bootstrap====================== -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <!-- ====================linked JS================================ -->
+    <script src="../SCRIPT/products.js"></script>
+    <script src="../SCRIPT/footer.js"></script>
+
+</body>
+
+</html>
